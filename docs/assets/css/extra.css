@@ -213,3 +213,11 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   padding-bottom: 0.2rem;
 }
 .md-typeset h3 { color: var(--heading-3); font-weight: 600; }
+
+/* Skills matrix: the "Skill" header and group labels (Numerics and physics,
+   HPC and GPU, ...) take the page-title color, so the table's structure
+   matches the heading hierarchy. Group rows are bold first cells. */
+.md-typeset .skills-matrix th:first-child,
+.md-typeset .skills-matrix td:first-child > strong {
+  color: var(--heading-1);
+}
