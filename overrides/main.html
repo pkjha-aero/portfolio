@@ -1,11 +1,27 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  {# Social card: the same headshot and summary on every page. #}
+  {#
+    Link previews (LinkedIn, Slack, X, ...). LinkedIn wants an absolute
+    image URL of at least 1200x627 and declared dimensions; the headshot
+    alone (383x383) was too small, so every page shares social-card.png.
+    After changing the card, refresh LinkedIn's cache with its Post Inspector.
+  #}
+  {% set card_title = (page.title ~ " · " ~ config.site_name) if (page.title and not page.is_homepage) else (config.site_name ~ " · Computational Physicist & ML Engineer") %}
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title and not page.is_homepage %}{{ page.title }} · {% endif %}{{ config.site_name }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="{{ card_title }}">
   <meta property="og:description" content="{{ config.site_description | trim }}">
-  <meta property="og:image" content="{{ config.site_url }}assets/images/headshot.jpg">
   <meta property="og:url" content="{{ page.canonical_url }}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="{{ config.site_url }}assets/images/social-card.png">
+  <meta property="og:image:secure_url" content="{{ config.site_url }}assets/images/social-card.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="Pankaj Jha: computational physicist and ML engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ card_title }}">
+  <meta name="twitter:description" content="{{ config.site_description | trim }}">
+  <meta name="twitter:image" content="{{ config.site_url }}assets/images/social-card.png">
 {% endblock %}
