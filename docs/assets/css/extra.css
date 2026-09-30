@@ -184,3 +184,32 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   color: var(--md-default-fg-color--light);
   margin-top: -0.4rem;
 }
+
+/* ---- Headings: burgundy -------------------------------------------------
+   Material's default headings are light grey (~4.6:1) and blend into body
+   text. Burgundy contrasts with the indigo header and stays distinct from
+   indigo links, so headings read as structure rather than as clickable.
+   Light mode on white: H1 10.1:1, H2 8.2:1, H3 6.4:1.                        */
+
+:root {
+  --heading-1: #7b1f2b;
+  --heading-2: #8e2c38;
+  --heading-3: #a33c48;
+  --heading-rule: #efd3d6;
+}
+/* Dark mode: rose tints of the same hue, readable on the slate background. */
+[data-md-color-scheme="slate"] {
+  --heading-1: #f0b8bd;
+  --heading-2: #e8a0a8;
+  --heading-3: #e8a0a8;
+  --heading-rule: #5a2e35;
+}
+
+.md-typeset h1 { color: var(--heading-1); font-weight: 500; }
+.md-typeset h2 {
+  color: var(--heading-2);
+  font-weight: 500;
+  border-bottom: 2px solid var(--heading-rule);
+  padding-bottom: 0.2rem;
+}
+.md-typeset h3 { color: var(--heading-3); font-weight: 600; }
