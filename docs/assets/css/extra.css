@@ -185,6 +185,15 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   margin-top: -0.4rem;
 }
 
+/* ---- Card titles ----------------------------------------------------------
+   The icon + bold title opening each grid card (section index pages, Home,
+   About, Code, Contact) takes the page-title color, so a card reads as a
+   heading for the page it links to. Uses --heading-1, defined below.        */
+.md-typeset .grid.cards > ul > li > p:first-child strong,
+.md-typeset .grid.cards > ul > li > p:first-child .twemoji {
+  color: var(--heading-1);
+}
+
 /* ---- Headings: burgundy -------------------------------------------------
    Material's default headings are light grey (~4.6:1) and blend into body
    text. Burgundy contrasts with the indigo header and stays distinct from
