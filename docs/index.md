@@ -30,8 +30,8 @@ software</strong>: GPU exascale weather codes at national labs, and AI shipped b
 </div>
 </div>
 
-**PhD in Aerospace Engineering** (Penn State; minor in computational science) and
-**BS + MS in Mathematics and Computing** (IIT Kharagpur; minor in aerospace). I write the
+<span class="em-title">PhD in Aerospace Engineering</span> (**Penn State; minor in computational science**) and
+<span class="em-title">BS + MS in Mathematics and Computing</span> (**IIT Kharagpur; minor in aerospace**). I write the
 numerics and understand the physics they model, which is the core of physics-informed ML,
 surrogate modeling and digital twins. About seven years of my career have been in industry,
 writing production C++ and Python for computer vision, ML and CFD, next to four years at
