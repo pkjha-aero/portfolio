@@ -7,10 +7,23 @@ I work where physics simulation meets machine learning. My training is in both f
 Penn State. That means I can derive the model, write the solver, scale it on a supercomputer,
 and train the surrogate that replaces it when thousands of runs are needed.
 
-My work is not limited to national labs and scientific code. About seven years of my career
-have been in industry, writing production C++ and Python for computer vision, machine learning
-and CFD at NetraDyne, Envision Digital, CMSoft and AZX, alongside four years at Lawrence
-Livermore.
+My work is not limited to national labs and scientific code. It has two sides
+([Depth and speed](#depth-and-speed)):
+
+- **Depth and foundations**, from academia and four years at Lawrence Livermore:
+  first-principles [wing and rotor models](computational-physics/wings-rotors.md#the-modeling-problem)
+  implemented by [groups worldwide](publications/implementations.md#research-groups), the
+  [core solver of ERF](computational-physics/erf-exascale.md#my-contributions) on DOE exascale
+  machines, [verification and validation](computational-physics/submarine-maneuvering.md#verification-and-validation),
+  and the [shared mathematical toolkit](foundations.md#one-toolkit-two-tracks) behind both
+  physics and ML.
+- **Production code at a high pace**, from about seven years in industry writing production C++
+  and Python: computer vision on 100,000+ devices at [NetraDyne](ai-ml/vision-adas.md#netradyne),
+  [CFD surrogates and solver speed-ups](ai-ml/surrogate-modeling.md#earlier-cfd-surrogates-at-envision-digital)
+  at Envision Digital, the [fluid–6-DOF coupling](computational-physics/submarine-maneuvering.md#how-the-coupling-works)
+  for the US Navy at CMSoft, and [grid AI](ai-ml/vision-adas.md#azx) and an
+  [LLM chatbot](ai-ml/llm-nlp.md#support-chatbot-azx) at AZX. See all
+  [industry software](software/index.md#software-for-industry).
 
 That range has carried me across aircraft, helicopters, drones, jet engines, submarines, ship
 airwakes, wind turbines, weather and climate, wildfire, autonomous driving and electric grids. I've worked for academic, national-lab, defense and commercial stakeholders.
