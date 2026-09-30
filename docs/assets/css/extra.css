@@ -324,3 +324,11 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
 @media screen and (min-width: 60em) {
   .md-typeset .grid.two-up { grid-template-columns: 1fr 1fr; }
 }
+
+/* Home emphasis in the page-title color: the key phrases in the tagline and
+   the degree names under the hero. --heading-1 turns rose in dark mode. */
+.md-typeset .hero .tagline strong,
+.md-typeset .em-title {
+  color: var(--heading-1);
+  font-weight: 700;
+}

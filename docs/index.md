@@ -30,19 +30,19 @@ software</strong>: GPU exascale weather codes at national labs, and AI shipped b
 </div>
 </div>
 
-**PhD in Aerospace Engineering** (Penn State; minor in computational science) and
-**BS + MS in Mathematics and Computing** (IIT Kharagpur; minor in aerospace). I write the
+<span class="em-title">PhD in Aerospace Engineering</span> (**Penn State; minor in computational science**) and
+<span class="em-title">BS + MS in Mathematics and Computing</span> (**IIT Kharagpur; minor in aerospace**). I write the
 numerics and understand the physics they model, which is the core of physics-informed ML,
 surrogate modeling and digital twins. About seven years of my career have been in industry,
 writing production C++ and Python for computer vision, ML and CFD, next to four years at
 Lawrence Livermore.
 
 <div class="stats">
-<div class="stat"><span class="num">551</span><span class="lbl">citations · h-index 11</span></div>
 <div class="stat"><span class="num">100k+</span><span class="lbl">devices running my vision code</span></div>
 <div class="stat"><span class="num">2</span><span class="lbl">DOE OSTI software records</span></div>
 <div class="stat"><span class="num">59</span><span class="lbl">merged PRs to ERF (DOE)</span></div>
 <div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter</span></div>
+<div class="stat"><span class="num">551</span><span class="lbl">citations · h-index 11</span></div>
 <div class="stat"><span class="num">32+</span><span class="lbl">countries citing the work</span></div>
 </div>
 
