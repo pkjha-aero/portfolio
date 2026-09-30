@@ -73,7 +73,7 @@ surrogate modeling and digital twins.
     Belgium, Israel, Denmark and the US Navy. Invited talks at Stanford and NREL. Energies topic
     editor, 50+ reviews.
 
-    [:octicons-arrow-right-24: Publications and impact](publications.md)
+    [:octicons-arrow-right-24: Publications and impact](publications/index.md)
 
 </div>
 
