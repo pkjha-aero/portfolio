@@ -25,3 +25,30 @@
   <meta name="twitter:description" content="{{ config.site_description | trim }}">
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/social-card.png">
 {% endblock %}
+
+{#-
+  Previous / Next at the top of each page, sticky while scrolling (same
+  pattern as the Wildfire_ML docs). Material's `navigation.footer` feature is
+  off in mkdocs.yml so the links appear in one place only. The home page is
+  skipped: its hero already leads into the tabs. Styled in extra.css
+  (.pagenav).
+-#}
+{% block content %}
+  {% if not page.is_homepage and (page.previous_page or page.next_page) %}
+    <nav class="pagenav" aria-label="Page navigation">
+      {% if page.previous_page %}
+        <a href="{{ page.previous_page.url | url }}" class="pagenav__link pagenav__link--prev" rel="prev">
+          <span class="pagenav__direction">{{ lang.t("footer.previous") }}</span>
+          <span class="pagenav__title">{{ page.previous_page.title }}</span>
+        </a>
+      {% endif %}
+      {% if page.next_page %}
+        <a href="{{ page.next_page.url | url }}" class="pagenav__link pagenav__link--next" rel="next">
+          <span class="pagenav__direction">{{ lang.t("footer.next") }}</span>
+          <span class="pagenav__title">{{ page.next_page.title }}</span>
+        </a>
+      {% endif %}
+    </nav>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

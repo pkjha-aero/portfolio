@@ -25,7 +25,6 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.indexes
-    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
