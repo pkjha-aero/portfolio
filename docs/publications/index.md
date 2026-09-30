@@ -83,7 +83,7 @@ My five-turbine wind-farm LES was featured by Intelligent Light in
 
     ERF and MLAP, released on DOE's OSTI, and HYDRO, a US Navy code for submarine maneuvering.
 
-    [:octicons-arrow-right-24: Software for US Govt](software-us-govt.md)
+    [:octicons-arrow-right-24: Software for US Govt](../software/us-govt.md)
 
 -   :material-source-branch:{ .lg .middle } **Implementation of my mathematical models**
 

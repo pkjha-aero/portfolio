@@ -122,7 +122,7 @@ Compiled first pages of these papers: [researcher implementations (Drive)][drive
     ERF and MLAP, my DOE codes released on OSTI, together with HYDRO for the Navy, are described
     on their own page.
 
-    [:octicons-arrow-right-24: Software for US Govt](software-us-govt.md)
+    [:octicons-arrow-right-24: Software for US Govt](../software/us-govt.md)
 
 </div>
 
