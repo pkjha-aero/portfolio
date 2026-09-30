@@ -1,0 +1,186 @@
+/* Carried over from StudyMaterial: equations, .result callouts, pillar chips,
+   tighter tables. Portfolio additions follow below the divider. */
+
+/* ---- Displayed equations -------------------------------------------------
+   Long display math is the one thing that legitimately overflows on a phone,
+   so let it scroll on its own rather than pushing the page sideways.         */
+
+mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.2rem 0;
+}
+
+/* Key results: boxed, so the eye finds them without reading prose. */
+.result {
+  border-left: 3px solid var(--md-primary-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  padding: 0.1rem 0.9rem;
+  margin: 1rem 0;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+/* ---- Pillar chips: the stack on each project page ------------------------ */
+.pillar {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  margin: 0 0.25rem 0.3rem 0;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  font-family: var(--md-code-font-family);
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+}
+a.pillar:hover { color: var(--md-accent-fg-color); }
+
+.md-typeset table:not([class]) { font-size: 0.72rem; }
+
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  white-space: nowrap;
+}
+.md-typeset table:not([class]) td:first-child > strong { white-space: normal; }
+
+.md-typeset .admonition.abstract > ul { margin-block: 0.4rem; }
+
+.md-grid { max-width: 62rem; }
+
+/* ========================================================================
+   Portfolio additions
+   ======================================================================== */
+
+/* ---- Home hero: headshot beside name and pitch; stacks on a phone -------- */
+.hero {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 0.4rem 0 1.2rem;
+}
+/* md_in_html wraps the image in a <p>; keep that wrapper from shrinking. */
+.md-typeset .hero > p:first-child { flex-shrink: 0; margin: 0; }
+.md-typeset .hero img.headshot {
+  width: 9rem;
+  height: 9rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px var(--md-primary-fg-color--light);
+}
+.hero h1 { margin: 0 0 0.3rem; }
+.hero .tagline {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 0.6rem;
+}
+@media screen and (max-width: 44.9375em) {
+  .hero { flex-direction: column; text-align: center; }
+  .hero .badge-row { justify-content: center; }
+}
+
+/* ---- Badges: labs, agencies, affiliations -------------------------------- */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid var(--md-primary-fg-color--light);
+  color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="slate"] .badge { color: var(--md-primary-fg-color--light); }
+
+/* ---- Headline numbers ----------------------------------------------------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0 1.4rem;
+}
+.stat {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.7rem;
+}
+.stat .num {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="slate"] .stat .num { color: var(--md-primary-fg-color--light); }
+.stat .lbl {
+  display: block;
+  font-size: 0.66rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---- Figures: bounded width, caption carries the credit ------------------ */
+.md-typeset figure { margin: 1.2rem auto; }
+.md-typeset figure img { border-radius: 0.2rem; }
+.md-typeset figcaption {
+  font-size: 0.68rem;
+  max-width: 42rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset figure.narrow img { max-width: 30rem; }
+
+/* ---- Timeline (About page) ------------------------------------------------ */
+.timeline dt {
+  font-weight: 700;
+}
+.timeline dt .when {
+  font-family: var(--md-code-font-family);
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.4rem;
+}
+
+/* ---- Skills matrix: wide table, first column sticky while scrolling ------ */
+.md-typeset .skills-matrix table { font-size: 0.7rem; }
+.md-typeset .skills-matrix th:not(:first-child),
+.md-typeset .skills-matrix td:not(:first-child) {
+  text-align: center;
+  padding: 0.35rem 0.4rem;
+  font-size: 0.8rem;
+}
+.md-typeset .skills-matrix td:first-child { padding-top: 0.35rem; padding-bottom: 0.35rem; }
+.md-typeset .skills-matrix th:first-child,
+.md-typeset .skills-matrix td:first-child {
+  white-space: normal;
+  min-width: 11rem;
+  position: sticky;
+  left: 0;
+  background: var(--md-default-bg-color);
+  z-index: 1;
+}
+.md-typeset .skills-matrix td { color: var(--md-primary-fg-color); }
+[data-md-color-scheme="slate"] .md-typeset .skills-matrix td { color: var(--md-primary-fg-color--light); }
+.md-typeset .skills-matrix td:first-child { color: var(--md-default-fg-color); }
+
+/* ---- Two-column comparison (depth vs speed) ------------------------------- */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media screen and (max-width: 44.9375em) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+/* Caption under a mermaid diagram (not inside a <figure>). */
+.md-typeset p.caption {
+  font-size: 0.68rem;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  margin-top: -0.4rem;
+}

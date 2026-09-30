@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {# Social card: the same headshot and summary on every page. #}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title and not page.is_homepage %}{{ page.title }} · {% endif %}{{ config.site_name }}">
+  <meta property="og:description" content="{{ config.site_description | trim }}">
+  <meta property="og:image" content="{{ config.site_url }}assets/images/headshot.jpg">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta name="twitter:card" content="summary">
+{% endblock %}
