@@ -167,16 +167,6 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
 [data-md-color-scheme="slate"] .md-typeset .skills-matrix td { color: var(--md-primary-fg-color--light); }
 .md-typeset .skills-matrix td:first-child { color: var(--md-default-fg-color); }
 
-/* ---- Two-column comparison (depth vs speed) ------------------------------- */
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-@media screen and (max-width: 44.9375em) {
-  .two-col { grid-template-columns: 1fr; }
-}
-
 /* Caption under a mermaid diagram (not inside a <figure>). */
 .md-typeset p.caption {
   font-size: 0.68rem;
@@ -325,3 +315,12 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   min-width: 11rem;
 }
 .md-typeset .wrap-table table:not([class]) td:last-child { white-space: nowrap; }
+
+/* Card grids that should be 2×2 on desktop rather than 3 + 1 (Home, What I
+   bring). Collapses to one column on narrow screens like other grids. */
+.md-typeset .grid.two-up {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+}
+@media screen and (min-width: 60em) {
+  .md-typeset .grid.two-up { grid-template-columns: 1fr 1fr; }
+}
