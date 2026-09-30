@@ -92,7 +92,7 @@ Lawrence Livermore.
     ---
 
     - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 551 citations
-    - Models implemented by **20+ groups in 14 countries**, by industry and by NAVAIR
+    - Models built on by **48 publications from 18 countries**, by industry, NAVAIR and NASA
     - Invited talks at Stanford and NREL; Energies topic editor; 50+ reviews
 
     [:octicons-arrow-right-24: Publications](publications/index.md) ·
