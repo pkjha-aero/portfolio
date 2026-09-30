@@ -73,9 +73,10 @@ nav:
   - Skills: skills.md
   - Publications & Impact:
       - publications/index.md
-      - Software for US Govt: publications/software-us-govt.md
       - Implementation of My Models: publications/implementations.md
-  - Code: code.md
+  - Software:
+      - software/index.md
+      - Software for US Govt: software/us-govt.md
   - Contact: contact.md
 
 plugins:
