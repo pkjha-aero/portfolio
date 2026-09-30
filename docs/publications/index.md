@@ -62,49 +62,39 @@ September 2026.
 Other venues: APS DFD, ASME, AWEA, NAWEA WindTech, WindEurope. The full list is on
 [Google Scholar][scholar]; papers are collected in the [publications folder][drive-publications].
 
-## Software on DOE OSTI
-
-| Software | Record | Code |
-|---|---|---|
-| ERF: Energy Research and Forecasting v1 (LBNL, NREL, LLNL, ANL; BSD-3) | [code-109687][osti-erf-code] | [erf-model/ERF][erf-repo] |
-| MLAP: Machine Learning Automation Pipeline (LLNL; MIT; sole developer) | [code-157408][osti-mlap] | [LLNL/MLAP][llnl-mlap] |
-
 ## Invited talks
 
 Stanford University (2018) · NREL National Wind Technology Center (2017) · University of
 Colorado Boulder (2017) · University of New Mexico (2017) · UT Dallas (2017) · University of
 Houston (2017) · University of Wyoming (2017) · UT Arlington (2017)
 
-## How others use the work
+## Press
 
-<div class="result" markdown>
-
-**Research groups** building on my blade models:
-
-- UCLouvain, Belgium: actuator-disk tip-loss correction (*Wind Energy* 2018); mollified lifting
-  lines (*AIAA J.* 2018, *Theor. Comput. Fluid Dyn.* 2020)
-- Technion, Israel: LES/ALM of rotor noise and its control (AIAA SciTech 2020, *Aerosp. Sci.
-  Technol.* 2021)
-- UT Dallas: tower and nacelle effects on wakes (*Wind Energy* 2017)
-- DTU, Denmark: tip modeling for wings and rotors
-- Floating-turbine wake studies (Yang et al. 2023), which adopt ACE as the blade model
-- *Handbook of Wind Energy Aerodynamics* (Springer, 2022), chapters on CFD-type wake models
-  and wake turbulence
-
-**Industry and government:**
-
-- CRAFT Tech, in US Navy-funded simulation for naval pilot training
-  ([Forsythe et al., US Navy/Boeing][pdf-forsythe])
-- Envision Energy, in its in-house wind-farm code
-- US DOE, through ERF and MLAP on OSTI
-
-**Press:** my five-turbine LES was featured by Intelligent Light in
+My five-turbine wind-farm LES was featured by Intelligent Light in
 [Aerospace America (June 2015)][pdf-aerospace-america].
 
-</div>
+## Beyond publications
 
-Evidence: [researcher implementations][drive-impact-researchers] ·
-[software and models for the US Government][drive-impact-govt]
+<div class="grid cards" markdown>
+
+-   :material-bank:{ .lg .middle } **Software for US Govt**
+
+    ---
+
+    ERF and MLAP, released on DOE's OSTI, and HYDRO, a US Navy code for submarine maneuvering.
+
+    [:octicons-arrow-right-24: Software for US Govt](software-us-govt.md)
+
+-   :material-source-branch:{ .lg .middle } **Implementation of my mathematical models**
+
+    ---
+
+    20+ independent publications from groups in 14 countries; industry (CRAFT Tech, Envision,
+    Boeing); and the US Government (NAVAIR, the Navy via CRAFT Tech, DOE).
+
+    [:octicons-arrow-right-24: Implementations](implementations.md)
+
+</div>
 
 ## Service
 

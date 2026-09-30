@@ -29,12 +29,11 @@
 {#-
   Previous / Next at the top of each page, sticky while scrolling (same
   pattern as the Wildfire_ML docs). Material's `navigation.footer` feature is
-  off in mkdocs.yml so the links appear in one place only. The home page is
-  skipped: its hero already leads into the tabs. Styled in extra.css
-  (.pagenav).
+  off in mkdocs.yml so the links appear in one place only. Styled in
+  extra.css (.pagenav).
 -#}
 {% block content %}
-  {% if not page.is_homepage and (page.previous_page or page.next_page) %}
+  {% if page.previous_page or page.next_page %}
     <nav class="pagenav" aria-label="Page navigation">
       {% if page.previous_page %}
         <a href="{{ page.previous_page.url | url }}" class="pagenav__link pagenav__link--prev" rel="prev">

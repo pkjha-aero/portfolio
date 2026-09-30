@@ -71,7 +71,10 @@ nav:
       - LLMs & NLP: ai-ml/llm-nlp.md
   - Foundations: foundations.md
   - Skills: skills.md
-  - Publications & Impact: publications.md
+  - Publications & Impact:
+      - publications/index.md
+      - Software for US Govt: publications/software-us-govt.md
+      - Implementation of My Models: publications/implementations.md
   - Code: code.md
   - Contact: contact.md
 

@@ -316,3 +316,12 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   .md-typeset .pagenav { gap: 0.5rem; padding: 0.4rem 0 0.35rem; margin-bottom: 1rem; }
   .md-typeset .pagenav__link { max-width: 49%; padding: 0.2rem 0.45rem; font-size: 0.9em; }
 }
+
+/* Tables whose first column holds prose (e.g. group + country on the
+   Implementations page): let it wrap instead of forcing one line. */
+.md-typeset .wrap-table table:not([class]) td:first-child,
+.md-typeset .wrap-table table:not([class]) th:first-child {
+  white-space: normal;
+  min-width: 11rem;
+}
+.md-typeset .wrap-table table:not([class]) td:last-child { white-space: nowrap; }
