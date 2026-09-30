@@ -1,0 +1,17 @@
+# Planning notes (local only, not published)
+PLAN.md
+Portfolio_Material.md
+
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+._*
+Thumbs.db

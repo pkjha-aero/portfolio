@@ -1,0 +1,133 @@
+site_name: Pankaj Jha
+site_description: >-
+  Computational physicist and ML engineer: GPU exascale atmospheric codes, rotor aerodynamics,
+  surrogate models and physics AI, from national labs to production.
+site_author: Pankaj Jha
+site_url: https://pkjha-aero.github.io/portfolio/
+
+repo_url: https://github.com/pkjha-aero/portfolio
+repo_name: pkjha-aero/portfolio
+
+copyright: >-
+  &copy; Pankaj Jha &middot; Figures from published work are credited in their captions.
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Reference-style link targets, appended to every page (see markdown_extensions).
+not_in_nav: |
+  /snippets/
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Computational Physics:
+      - computational-physics/index.md
+      - Wings & Rotors: computational-physics/wings-rotors.md
+      - Submarine Maneuvering: computational-physics/submarine-maneuvering.md
+      - ERF · Exascale Atmosphere: computational-physics/erf-exascale.md
+  - AI & ML:
+      - ai-ml/index.md
+      - Surrogate Modeling: ai-ml/surrogate-modeling.md
+      - Vision & ADAS: ai-ml/vision-adas.md
+      - LLMs & NLP: ai-ml/llm-nlp.md
+  - Foundations: foundations.md
+  - Skills: skills.md
+  - Publications & Impact: publications.md
+  - Code: code.md
+  - Contact: contact.md
+
+plugins:
+  - search
+  - glightbox:
+      skip_classes:
+        - no-lightbox
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - docs/snippets/links.md
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pankaj-jha-6844128/
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/pkjha-aero
+      name: GitHub
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=VRaAAkgAAAAJ
+      name: Google Scholar
+
+extra_javascript:
+  - assets/js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/css/extra.css
