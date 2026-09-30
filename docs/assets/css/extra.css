@@ -332,3 +332,11 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
   color: var(--heading-1);
   font-weight: 700;
 }
+
+/* Implementations table: narrow year column, room for the group, excerpt
+   links kept on one line. */
+.md-typeset .impl-table table:not([class]) td:first-child { white-space: nowrap; width: 3rem; }
+.md-typeset .impl-table table:not([class]) td:nth-child(2) { min-width: 10rem; }
+.md-typeset .impl-table table:not([class]) td:nth-child(3) { min-width: 11rem; }
+.md-typeset .impl-table table:not([class]) td:nth-child(4) { min-width: 8rem; }
+.md-typeset .impl-table table:not([class]) td:last-child { white-space: nowrap; }

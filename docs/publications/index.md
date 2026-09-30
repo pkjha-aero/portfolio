@@ -89,8 +89,8 @@ My five-turbine wind-farm LES was featured by Intelligent Light in
 
     ---
 
-    20+ independent publications from groups in 14 countries; industry (CRAFT Tech, Envision,
-    Boeing); and the US Government (NAVAIR, the Navy via CRAFT Tech, DOE).
+    48 independent publications from groups in 18 countries; industry (CRAFT Tech, Envision,
+    Boeing); and the US Government (NAVAIR, the Navy via CRAFT Tech, DOE, NASA).
 
     [:octicons-arrow-right-24: Implementations](implementations.md)
 
