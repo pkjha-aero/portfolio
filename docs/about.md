@@ -7,9 +7,26 @@ I work where physics simulation meets machine learning. My training is in both f
 Penn State. That means I can derive the model, write the solver, scale it on a supercomputer,
 and train the surrogate that replaces it when thousands of runs are needed.
 
-That combination has carried me across aircraft, helicopters, drones, jet engines,
-submarines, ship airwakes, wind turbines, weather and climate, wildfire, autonomous driving and
-electric grids. I've worked for academic, national-lab, defense and commercial stakeholders.
+My work is not limited to national labs and scientific code. It has two sides
+([Depth and speed](#depth-and-speed)):
+
+- **Depth and foundations**, from academia and four years at Lawrence Livermore:
+  first-principles [wing and rotor models](computational-physics/wings-rotors.md#the-modeling-problem)
+  implemented by [groups worldwide](publications/implementations.md#research-groups), the
+  [core solver of ERF](computational-physics/erf-exascale.md#my-contributions) on DOE exascale
+  machines, [verification and validation](computational-physics/submarine-maneuvering.md#verification-and-validation),
+  and the [shared mathematical toolkit](foundations.md#one-toolkit-two-tracks) behind both
+  physics and ML.
+- **Production code at a high pace**, from about seven years in industry writing production C++
+  and Python: computer vision on 100,000+ devices at [NetraDyne](ai-ml/vision-adas.md#netradyne),
+  [CFD surrogates and solver speed-ups](ai-ml/surrogate-modeling.md#earlier-cfd-surrogates-at-envision-digital)
+  at Envision Digital, the [fluid–6-DOF coupling](computational-physics/submarine-maneuvering.md#how-the-coupling-works)
+  for the US Navy at CMSoft, and [grid AI](ai-ml/vision-adas.md#azx) and an
+  [LLM chatbot](ai-ml/llm-nlp.md#support-chatbot-azx) at AZX. See all
+  [industry software](software/index.md#software-for-industry).
+
+That range has carried me across aircraft, helicopters, drones, jet engines, submarines, ship
+airwakes, wind turbines, weather and climate, wildfire, autonomous driving and electric grids. I've worked for academic, national-lab, defense and commercial stakeholders.
 
 ## Two national labs
 
@@ -38,28 +55,28 @@ electric grids. I've worked for academic, national-lab, defense and commercial s
 
 ## Depth and speed
 
-<div class="two-col" markdown>
-<div markdown>
+<div class="grid cards" markdown>
 
-### Depth: academia and labs
+-   :material-layers-triple-outline:{ .lg .middle } **Depth: academia and national labs**
 
-- First-principles models of wings and rotors, adopted by research groups worldwide and cited from 32+ countries
-- Verification and validation against theory and experiment
-- Open-source codes on DOE exascale machines
-- Peer review for Wind Energy, JSEE, AIAA SciTech; Energies topic editor
+    ---
 
-</div>
-<div markdown>
+    - First-principles models of wings and rotors, implemented by research groups worldwide and
+      cited from 32+ countries
+    - Verification and validation against theory and experiment
+    - Open-source codes on DOE exascale machines
+    - Peer review for Wind Energy, JSEE and AIAA SciTech; Energies topic editor
 
-### Speed: startups
+-   :material-rocket-launch-outline:{ .lg .middle } **Speed: startups and industry**
 
-- Computer vision shipped to **100,000+ devices** (NetraDyne)
-- Collision prediction behind an **Amazon** delivery-van deal; HD maps behind a **$10M Hyundai**
-  investment
-- CFD surrogates with a **10× speed-up** for wind-resource assessment (Envision Digital)
-- Climate and grid-risk AI for electric utilities (AZX)
+    ---
 
-</div>
+    - Computer vision shipped to **100,000+ devices** (NetraDyne)
+    - Collision prediction behind an **Amazon** delivery-van deal; HD maps behind a **$10M
+      Hyundai** investment
+    - CFD surrogates with a **10× speed-up** and a 30% faster solver (Envision Digital)
+    - Climate risk, satellite computer vision and LLM software for electric utilities (AZX)
+
 </div>
 
 ## Timeline

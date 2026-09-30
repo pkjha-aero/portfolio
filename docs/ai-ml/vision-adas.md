@@ -15,7 +15,7 @@
     NetraDyne and AZX code is proprietary. This page describes approaches in general terms.
     Diagrams are schematics drawn for this site; no customer imagery or source code is shown.
 
-## NetraDyne (2019–2020): Staff Engineer, CV, robotics and ML
+## NetraDyne (2019–2020): Staff Engineer, CV, robotics and ML { #netradyne }
 
 ### Keypoint detection and tracking on the device
 
@@ -71,7 +71,7 @@ potholes or hard braking. I developed the event-detection models from inertial a
 
 </div>
 
-## AZX (2024–present): Staff ML Engineer
+## AZX (2024–present): Staff ML Engineer { #azx }
 
 Computer vision for the electric grid:
 
