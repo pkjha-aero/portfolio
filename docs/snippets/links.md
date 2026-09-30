@@ -44,9 +44,9 @@
 [drive-ml]: https://drive.google.com/drive/folders/1AHr3oJyLUFI3OJs8K5gy9ZWrnOVrc34u
 [pdf-jfm-2018]: https://drive.google.com/file/d/1TwplXZa9zsyIBlNp665GPl5qQg_V3OG1/view
 [pdf-energies-2015]: https://drive.google.com/file/d/1KHTRLO7K6bEVnHQAJwucHBTINDStgFcW/view
-[pdf-aiaa-2012]: https://drive.google.com/file/d/1XBrxGfjL3wB_7vcJoaLcF6zwmjM6rccZ/view
-[pdf-ahs-2013]: https://drive.google.com/file/d/1mKEw8ApR_rPbsQaHm_oSq-GuEw2Lw5ev/view
-[pdf-ahs-2014]: https://drive.google.com/file/d/1Ko-TNmgoBlobZyBh10aLuHldfiiliZKe/view
+[pdf-aiaa-2012]: https://drive.google.com/file/d/1hxWmakSW0kebhInNBvr0pRJfims5IYuP/view
+[pdf-ahs-2013]: https://drive.google.com/file/d/1f1xQTCkZVE_MsQaSmgrH_dRxouxDmJ9d/view
+[pdf-ahs-2014]: https://drive.google.com/file/d/1tgRcl_QXS3K75nF9Q-X2fnJs3jzrlfyX/view
 [pdf-jsee-2014]: https://drive.google.com/file/d/1PQ-1ORYf4rdkttGoxAARRQ6Jkj1sIKMh/view
 [pdf-jsee-2016]: https://drive.google.com/file/d/19K-q5twcn5B05aPefHgF6jVIYjXZ9eE5/view
 [pdf-ams-2023]: https://drive.google.com/file/d/1l0e13PglAMt-zR0Oen8r6yfPV-NlAlJt/view
