@@ -66,40 +66,40 @@ flowchart TB
 ## My contributions
 
 **59 merged pull requests** from January 2021 to July 2022
-([full list][erf-prs]), in four groups:
+([full list][erf-prs]), in four groups. Each item links to its pull requests.
 
-**Core solver architecture**
+### Core solver architecture
 
-- The Navier–Stokes code architecture used by the rest of the team
-- Advection, and momentum, thermal and scalar diffusion
-- Energy and scalar diffusion in the compressible equations, and the deviatoric strain-rate tensor
-- An equation-of-state fix, and a DNS implementation checked on Taylor–Green vortex and other
-  problems
+- The Navier–Stokes code architecture used by the rest of the team. [#20](https://github.com/erf-model/ERF/pull/20)
+- Advection, and momentum, thermal and scalar diffusion, on the new architecture. [#25](https://github.com/erf-model/ERF/pull/25) · [#26](https://github.com/erf-model/ERF/pull/26)
+- Energy and scalar diffusion in the compressible equations, and the deviatoric strain-rate tensor. [#110](https://github.com/erf-model/ERF/pull/110) · [#253](https://github.com/erf-model/ERF/pull/253)
+- An equation-of-state fix, and a DNS implementation checked on the Taylor–Green vortex and other problems. [#29](https://github.com/erf-model/ERF/pull/29) · [#27](https://github.com/erf-model/ERF/pull/27)
+- Pressure-gradient forcing of the momentum update, and an option to turn off gravity. [#115](https://github.com/erf-model/ERF/pull/115) · [#24](https://github.com/erf-model/ERF/pull/24)
 
-**Turbulence and boundary layers**
+### Turbulence and boundary layers
 
-- The LES Smagorinsky model for momentum
-- Slip, no-slip and **log-law wall** boundary conditions
-- The atmospheric boundary-layer (ABL) driver, with channel-flow and ABL test cases seeded by
-  initial perturbations
+- The LES Smagorinsky model for momentum, with a sign fix for the eddy viscosity. [#47](https://github.com/erf-model/ERF/pull/47) · [#100](https://github.com/erf-model/ERF/pull/100)
+- Slip and no-slip boundary conditions, and the **log-law wall** condition. [#51](https://github.com/erf-model/ERF/pull/51) · [#55](https://github.com/erf-model/ERF/pull/55)
+- The atmospheric boundary-layer (ABL) driver. [#63](https://github.com/erf-model/ERF/pull/63)
+- Channel-flow and ABL test cases, seeded by initial perturbations. [#53](https://github.com/erf-model/ERF/pull/53) · [#56](https://github.com/erf-model/ERF/pull/56)
 
-**Real-weather initialization**
+### Real-weather initialization
 
 This is what lets ERF start from an actual forecast.
 
-- The **WPS–ERF interface**
-- Initialization from real (`wrfinput`) and idealized meteorological data, and from `input_sounding`
-- Reading WRF lateral boundary data (`wrfbdy`) with time stamps, pressure, and density from
-  potential temperature
-- Reorganized NetCDF I/O
-- Case setups: Chisholm View (a real mesoscale case), Ekman spiral, low-level jet, Witch of Agnesi
+- The **WPS–ERF interface**. [#382](https://github.com/erf-model/ERF/pull/382)
+- Initialization from real meteorological data (`wrfinput`), with fixes for refinement levels and density perturbations. [#442](https://github.com/erf-model/ERF/pull/442) · [#524](https://github.com/erf-model/ERF/pull/524) · [#568](https://github.com/erf-model/ERF/pull/568) · [#575](https://github.com/erf-model/ERF/pull/575)
+- Initialization from idealized data and from `input_sounding`, and the refactor that separates initialization types. [#393](https://github.com/erf-model/ERF/pull/393) · [#457](https://github.com/erf-model/ERF/pull/457) · [#455](https://github.com/erf-model/ERF/pull/455) · [#566](https://github.com/erf-model/ERF/pull/566)
+- Reading WRF lateral boundary data (`wrfbdy`): time stamps, pressure, and density from potential temperature. [#446](https://github.com/erf-model/ERF/pull/446) · [#461](https://github.com/erf-model/ERF/pull/461) · [#553](https://github.com/erf-model/ERF/pull/553) · [#558](https://github.com/erf-model/ERF/pull/558) · [#559](https://github.com/erf-model/ERF/pull/559) · [#561](https://github.com/erf-model/ERF/pull/561) · [#563](https://github.com/erf-model/ERF/pull/563) · [#564](https://github.com/erf-model/ERF/pull/564)
+- Reorganized NetCDF I/O for WPS/WRF files. [#525](https://github.com/erf-model/ERF/pull/525)
+- Case setups: Chisholm View (a real mesoscale case), Ekman spiral variants, Witch of Agnesi, uniform-advection tests. [#403](https://github.com/erf-model/ERF/pull/403) · [#570](https://github.com/erf-model/ERF/pull/570) · [#456](https://github.com/erf-model/ERF/pull/456) · [#208](https://github.com/erf-model/ERF/pull/208)
 
-**Quality and documentation**
+### Quality and documentation
 
-- The **regression-test** framework and its documentation
-- Documentation of the Euler and Navier–Stokes discretization on the Arakawa C-grid and of
-  stress–strain theory
-- Replacing macros with `const`, namespace fixes, and builds with terrain enabled
+- The **regression-test** framework and its documentation. [#68](https://github.com/erf-model/ERF/pull/68) · [#199](https://github.com/erf-model/ERF/pull/199) · [#204](https://github.com/erf-model/ERF/pull/204)
+- Documentation of the Euler and Navier–Stokes discretization on the Arakawa C-grid, and of stress–strain theory. [#6](https://github.com/erf-model/ERF/pull/6) · [#95](https://github.com/erf-model/ERF/pull/95) · [#154](https://github.com/erf-model/ERF/pull/154) · [#214](https://github.com/erf-model/ERF/pull/214)
+- Documentation of real-data and `input_sounding` initialization. [#400](https://github.com/erf-model/ERF/pull/400) · [#443](https://github.com/erf-model/ERF/pull/443) · [#476](https://github.com/erf-model/ERF/pull/476)
+- Build fixes with terrain enabled, AMReX update, and code clean-ups. [#509](https://github.com/erf-model/ERF/pull/509) · [#7](https://github.com/erf-model/ERF/pull/7) · [#1](https://github.com/erf-model/ERF/pull/1) · [#16](https://github.com/erf-model/ERF/pull/16) · [#117](https://github.com/erf-model/ERF/pull/117) · [#248](https://github.com/erf-model/ERF/pull/248) · [#477](https://github.com/erf-model/ERF/pull/477)
 
 ## Coupling across scales
 
