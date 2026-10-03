@@ -67,7 +67,7 @@ nav:
   - AI & ML:
       - ai-ml/index.md
       - Surrogate Modeling: ai-ml/surrogate-modeling.md
-      - Vision & ADAS: ai-ml/vision-adas.md
+      - Computer Vision & ADAS: ai-ml/vision-adas.md
       - LLMs & NLP: ai-ml/llm-nlp.md
   - Foundations: foundations.md
   - Skills: skills.md

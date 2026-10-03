@@ -13,12 +13,12 @@ Each skill mapped to the projects where I used it. ● means a primary skill in 
 [Submarine](computational-physics/submarine-maneuvering.md) ·
 [ERF](computational-physics/erf-exascale.md) ·
 [Surrogates](ai-ml/surrogate-modeling.md) ·
-[Vision](ai-ml/vision-adas.md) ·
+[Computer Vision](ai-ml/vision-adas.md) ·
 [LLMs](ai-ml/llm-nlp.md) · AZX (grid and climate AI, 2024–)
 
 <div class="skills-matrix" markdown>
 
-| Skill | Rotors | Submarine | ERF | Surrogates | Vision | LLMs | AZX |
+| Skill | Rotors | Submarine | ERF | Surrogates | Computer Vision | LLMs | AZX |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **Numerics and physics** | | | | | | | |
 | CFD (FVM / FDM) | ● | ● | ● | ○ | | | |

@@ -71,7 +71,7 @@ Lawrence Livermore.
     - **Satellite CV** for solar-panel detection and **DER detection** for utilities (AZX)
     - **LLM software**: SFT + RAG chatbot; LLM pipelines for simulation logs and inputs
 
-    [:octicons-arrow-right-24: Vision & ADAS](ai-ml/vision-adas.md) ·
+    [:octicons-arrow-right-24: Computer Vision & ADAS](ai-ml/vision-adas.md) ·
     [LLMs & NLP](ai-ml/llm-nlp.md) ·
     [Industry software](software/index.md#software-for-industry)
 
@@ -120,7 +120,7 @@ Lawrence Livermore.
 
     - [Surrogate modeling](ai-ml/surrogate-modeling.md): MLAP for wildfire (LLNL), CFD
       surrogates (Envision)
-    - [Vision and ADAS](ai-ml/vision-adas.md): on-device tracking, HD maps, collision
+    - [Computer vision and ADAS](ai-ml/vision-adas.md): on-device tracking, HD maps, collision
       prediction (NetraDyne); satellite CV (AZX)
     - [LLMs and NLP](ai-ml/llm-nlp.md): fine-tuning, RAG, LLMs for simulation workflows
 
