@@ -99,8 +99,13 @@ pull requests.
 - Channel-flow and ABL test cases, seeded by initial perturbations. [#53](https://github.com/erf-model/ERF/pull/53) · [#56](https://github.com/erf-model/ERF/pull/56)
 
 <figure markdown>
-![Locations of strain-rate and eddy-viscosity components on the staggered grid](../assets/figures/cp3/erf/les-staggering.png)
-<figcaption>Where strain-rate and eddy-viscosity components live on the staggered grid, from my LES documentation (<a href="https://github.com/erf-model/ERF/pull/95">#95</a>). ERF, BSD-3. Current version: <a href="https://erf.readthedocs.io/en/latest/Discretizations.html#strain-rate-and-eddy-viscosity">strain rate and eddy viscosity</a> in the ERF docs.</figcaption>
+![Smagorinsky LES on the staggered grid: strain-rate component locations, eddy-viscosity locations, and the x-momentum stress-divergence stencil](../assets/figures/cp3/erf/les-staggering.png)
+<figcaption>Smagorinsky LES on the staggered grid, implemented in <a href="https://github.com/erf-model/ERF/pull/47">#47</a> (sign fix
+<a href="https://github.com/erf-model/ERF/pull/100">#100</a>) and documented in <a href="https://github.com/erf-model/ERF/pull/95">#95</a>: (1) where the strain-rate
+components are computed, (2) where the eddy viscosity K is evaluated from the strain-rate
+magnitude, and (3) where the resulting stresses enter the x-momentum equation. ERF, BSD-3.
+Current version: <a href="https://erf.readthedocs.io/en/latest/Discretizations.html#strain-rate-and-eddy-viscosity">strain rate and
+eddy viscosity</a> in the ERF docs.</figcaption>
 </figure>
 
 ### Real-weather initialization
