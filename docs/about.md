@@ -7,7 +7,7 @@ I work where physics simulation meets machine learning. My training is in both f
 Penn State. That means I can derive the model, write the solver, scale it on a supercomputer,
 and train the surrogate that replaces it when thousands of runs are needed.
 
-My work is not limited to national labs and scientific code. It has two sides
+My work has two sides
 ([Depth and speed](#depth-and-speed)):
 
 - **Depth and foundations**, from academia and four years at Lawrence Livermore:
