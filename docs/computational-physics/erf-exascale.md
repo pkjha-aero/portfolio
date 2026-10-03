@@ -65,8 +65,18 @@ flowchart TB
 
 ## My contributions
 
-**59 merged pull requests** from January 2021 to July 2022
-([full list][erf-prs]), in four groups. Each item links to its pull requests.
+**59 merged pull requests** from January 2021 to July 2022 ([full list][erf-prs]): about
+**14,000 lines added** across **621 file changes**, in four groups. Each item below links to its
+pull requests.
+
+<figure markdown>
+![Stacked bar chart of merged ERF pull requests per month by theme, January 2021 to July 2022](../assets/figures/cp3/erf/erf-pr-activity.svg)
+<figcaption>Merged PRs per month. 2021 built the core solver, LES, boundary conditions and tests; 2022 built real-weather initialization from WRF.</figcaption>
+</figure>
+<figure markdown>
+![Bar chart of lines added by area: solver 6,159, problem setups 4,153, regression tests 2,087, documentation 1,595](../assets/figures/cp3/erf/erf-lines-by-area.svg)
+<figcaption>Lines added by area of the repository, from the PR file lists on GitHub.</figcaption>
+</figure>
 
 ### Core solver architecture
 
@@ -76,12 +86,22 @@ flowchart TB
 - An equation-of-state fix, and a DNS implementation checked on the Taylor–Green vortex and other problems. [#29](https://github.com/erf-model/ERF/pull/29) · [#27](https://github.com/erf-model/ERF/pull/27)
 - Pressure-gradient forcing of the momentum update, and an option to turn off gravity. [#115](https://github.com/erf-model/ERF/pull/115) · [#24](https://github.com/erf-model/ERF/pull/24)
 
+<figure markdown>
+![Arakawa C-grid staggering in the x–y plane and the stencil for x-momentum advection](../assets/figures/cp3/erf/cgrid-stencils.png)
+<figcaption>From my documentation of the discretization (<a href="https://github.com/erf-model/ERF/pull/6">#6</a>): variables staggered on the Arakawa C-grid, and the stencil for x-momentum advection. ERF, BSD-3.</figcaption>
+</figure>
+
 ### Turbulence and boundary layers
 
 - The LES Smagorinsky model for momentum, with a sign fix for the eddy viscosity. [#47](https://github.com/erf-model/ERF/pull/47) · [#100](https://github.com/erf-model/ERF/pull/100)
 - Slip and no-slip boundary conditions, and the **log-law wall** condition. [#51](https://github.com/erf-model/ERF/pull/51) · [#55](https://github.com/erf-model/ERF/pull/55)
 - The atmospheric boundary-layer (ABL) driver. [#63](https://github.com/erf-model/ERF/pull/63)
 - Channel-flow and ABL test cases, seeded by initial perturbations. [#53](https://github.com/erf-model/ERF/pull/53) · [#56](https://github.com/erf-model/ERF/pull/56)
+
+<figure markdown>
+![Locations of strain-rate and eddy-viscosity components on the staggered grid](../assets/figures/cp3/erf/les-staggering.png)
+<figcaption>Where strain-rate and eddy-viscosity components live on the staggered grid, from my LES documentation (<a href="https://github.com/erf-model/ERF/pull/95">#95</a>). ERF, BSD-3.</figcaption>
+</figure>
 
 ### Real-weather initialization
 
@@ -94,12 +114,22 @@ This is what lets ERF start from an actual forecast.
 - Reorganized NetCDF I/O for WPS/WRF files. [#525](https://github.com/erf-model/ERF/pull/525)
 - Case setups: Chisholm View (a real mesoscale case), Ekman spiral variants, Witch of Agnesi, uniform-advection tests. [#403](https://github.com/erf-model/ERF/pull/403) · [#570](https://github.com/erf-model/ERF/pull/570) · [#456](https://github.com/erf-model/ERF/pull/456) · [#208](https://github.com/erf-model/ERF/pull/208)
 
+<figure markdown>
+![Schematic: WRF preprocessing produces wrfinput and wrfbdy NetCDF files and input soundings, which ERF reads to build its initial and boundary state](../assets/figures/cp3/erf/real-weather-init.svg)
+<figcaption>Schematic drawn for this site, summarizing what the initialization PRs implemented.</figcaption>
+</figure>
+
 ### Quality and documentation
 
 - The **regression-test** framework and its documentation. [#68](https://github.com/erf-model/ERF/pull/68) · [#199](https://github.com/erf-model/ERF/pull/199) · [#204](https://github.com/erf-model/ERF/pull/204)
 - Documentation of the Euler and Navier–Stokes discretization on the Arakawa C-grid, and of stress–strain theory. [#6](https://github.com/erf-model/ERF/pull/6) · [#95](https://github.com/erf-model/ERF/pull/95) · [#154](https://github.com/erf-model/ERF/pull/154) · [#214](https://github.com/erf-model/ERF/pull/214)
 - Documentation of real-data and `input_sounding` initialization. [#400](https://github.com/erf-model/ERF/pull/400) · [#443](https://github.com/erf-model/ERF/pull/443) · [#476](https://github.com/erf-model/ERF/pull/476)
 - Build fixes with terrain enabled, AMReX update, and code clean-ups. [#509](https://github.com/erf-model/ERF/pull/509) · [#7](https://github.com/erf-model/ERF/pull/7) · [#1](https://github.com/erf-model/ERF/pull/1) · [#16](https://github.com/erf-model/ERF/pull/16) · [#117](https://github.com/erf-model/ERF/pull/117) · [#248](https://github.com/erf-model/ERF/pull/248) · [#477](https://github.com/erf-model/ERF/pull/477)
+
+<figure markdown>
+![Start and end states of three regression tests: Taylor–Green vortex, scalar advected in rigid rotation, and scalar diffusion](../assets/figures/cp3/erf/regression-tests.png)
+<figcaption>Three of the regression tests I documented (<a href="https://github.com/erf-model/ERF/pull/199">#199</a>): Taylor–Green vortex, a scalar blob in rigid rotation, and scalar diffusion, each from start to final time. ERF, BSD-3.</figcaption>
+</figure>
 
 ## Coupling across scales
 
