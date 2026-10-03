@@ -38,12 +38,12 @@ writing production <span class="em-title">C++</span> and <span class="em-title">
 Lawrence Livermore.
 
 <div class="stats">
-<div class="stat"><span class="num">100k+</span><span class="lbl">devices running my vision code</span></div>
-<div class="stat"><span class="num">2</span><span class="lbl">DOE OSTI software records</span></div>
+<div class="stat"><span class="num">100k+</span><span class="lbl">devices running my computer vision code</span></div>
+<div class="stat"><span class="num">2</span><span class="lbl">US Govt (DOE) OSTI software records</span></div>
 <div class="stat"><span class="num">59</span><span class="lbl">merged PRs to ERF (DOE)</span></div>
-<div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter</span></div>
+<div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter supercomputers</span></div>
 <div class="stat"><span class="num">551</span><span class="lbl">citations · h-index 11</span></div>
-<div class="stat"><span class="num">32+</span><span class="lbl">countries citing the work</span></div>
+<div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
 </div>
 
 ## What I bring
