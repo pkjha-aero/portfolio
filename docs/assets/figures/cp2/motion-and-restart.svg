@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="280.8pt" viewBox="0 0 648 280.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-03T02:13:01.547831</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.6.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.8 
+L 648 280.8 
+L 648 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.8224 127.44 
+L 157.3776 127.44 
+Q 162.3888 127.44 162.3888 122.932174 
+L 162.3888 53.624348 
+Q 162.3888 49.116522 157.3776 49.116522 
+L 20.8224 49.116522 
+Q 15.8112 49.116522 15.8112 53.624348 
+L 15.8112 122.932174 
+Q 15.8112 127.44 20.8224 127.44 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #e8eaf6; stroke: #283593; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 177.4224 127.44 
+L 313.9776 127.44 
+Q 318.9888 127.44 318.9888 122.932174 
+L 318.9888 53.624348 
+Q 318.9888 49.116522 313.9776 49.116522 
+L 177.4224 49.116522 
+Q 172.4112 49.116522 172.4112 53.624348 
+L 172.4112 122.932174 
+Q 172.4112 127.44 177.4224 127.44 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #f6e6e8; stroke: #7b1f2b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.8224 251.405217 
+L 313.9776 251.405217 
+Q 318.9888 251.405217 318.9888 246.897391 
+L 318.9888 157.867826 
+Q 318.9888 153.36 313.9776 153.36 
+L 20.8224 153.36 
+Q 15.8112 153.36 15.8112 157.867826 
+L 15.8112 246.897391 
+Q 15.8112 251.405217 20.8224 251.405217 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #ffffff; stroke: #616161; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 89.1 128.311218 
+Q 89.1 140.400562 89.1 151.036462 
+" clip-path="url(#p0439bb4ccc)" style="fill: none; stroke: #616161; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 91.5 146.236462 
+L 89.1 151.036462 
+L 86.7 146.236462 
+L 91.5 146.236462 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #616161; stroke: #616161; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 245.7 128.311218 
+Q 245.7 140.400562 245.7 151.036462 
+" clip-path="url(#p0439bb4ccc)" style="fill: none; stroke: #616161; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 248.1 146.236462 
+L 245.7 151.036462 
+L 243.3 146.236462 
+L 248.1 146.236462 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #616161; stroke: #616161; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 486.864 100.141604 
+Q 486.864 122.086801 486.864 142.578554 
+" clip-path="url(#p0439bb4ccc)" style="fill: none; stroke: #283593; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 489.264 137.778554 
+L 486.864 142.578554 
+L 484.464 137.778554 
+L 489.264 137.778554 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #283593; stroke: #283593; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 352.8144 251.405217 
+L 614.6496 251.405217 
+Q 619.6608 251.405217 619.6608 246.897391 
+L 619.6608 155.050435 
+Q 619.6608 150.542609 614.6496 150.542609 
+L 352.8144 150.542609 
+Q 347.8032 150.542609 347.8032 155.050435 
+L 347.8032 246.897391 
+Q 347.8032 251.405217 352.8144 251.405217 
+z
+" clip-path="url(#p0439bb4ccc)" style="fill: #e8eaf6; stroke: #283593; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 349.056 89.686957 
+L 618.408 89.686957 
+" clip-path="url(#p0439bb4ccc)" style="fill: none; stroke: #616161; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="m4df44253af" d="M -0 5.656854 
+L 5.656854 0 
+L 0 -5.656854 
+L -5.656854 -0 
+z
+" style="stroke: #283593; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p0439bb4ccc)">
+     <use xlink:href="#m4df44253af" x="399.168" y="89.686957" style="fill: #283593; stroke: #283593; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <g clip-path="url(#p0439bb4ccc)">
+     <use xlink:href="#m4df44253af" x="486.864" y="89.686957" style="fill: #283593; stroke: #283593; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <g clip-path="url(#p0439bb4ccc)">
+     <use xlink:href="#m4df44253af" x="574.56" y="89.686957" style="fill: #283593; stroke: #283593; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_5">
+    <defs>
+     <path id="m3b85f679bf" d="M -2.5 5 
+L 0 2.5 
+L 2.5 5 
+L 5 2.5 
+L 2.5 0 
+L 5 -2.5 
+L 2.5 -5 
+L 0 -2.5 
+L -2.5 -5 
+L -5 -2.5 
+L -2.5 0 
+L -5 2.5 
+z
+" style="stroke: #7b1f2b; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p0439bb4ccc)">
+     <use xlink:href="#m3b85f679bf" x="530.712" y="89.686957" style="fill: #7b1f2b; stroke: #7b1f2b; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font: 700 10.5px 'DejaVu Sans'; text-anchor: start" x="17.064" y="27.704348" transform="rotate(-0 17.064 27.704348)">Two motion modes</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 700 10.5px 'DejaVu Sans'; text-anchor: start" x="342.792" y="27.704348" transform="rotate(-0 342.792 27.704348)">Restart of a coupled run</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(58.675977 81.105589)">Forced motion</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(47.363008 90.62373)">α(t) = α₀ + A sin ωt</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(61.966406 100.14187)">(verification)</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(220.450352 81.105589)">Free motion</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(214.839688 90.62373)">loads ⇄ 6-DOF</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(225.560977 100.14187)">(coupled)</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(85.865078 190.450867)">Flow advance and mesh advance kept</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(78.887773 199.969007)">separate, so each mode stays consistent;</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(102.868398 209.487148)">coupled steps sub-iterate with</text>
+    <text style="fill: #212121; font: 8.5px 'DejaVu Sans'" transform="translate(75.258008 219.005288)">Aitken relaxation until fluid and body agree</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #283593; font: 7.5px 'DejaVu Sans'; text-anchor: middle" x="399.168" y="75.6" transform="rotate(-0 399.168 75.6)">checkpoint 1</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #283593; font: 7.5px 'DejaVu Sans'; text-anchor: middle" x="486.864" y="75.6" transform="rotate(-0 486.864 75.6)">checkpoint 2</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #283593; font: 7.5px 'DejaVu Sans'; text-anchor: middle" x="574.56" y="75.6" transform="rotate(-0 574.56 75.6)">checkpoint 3</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #7b1f2b; font: 7.5px 'DejaVu Sans'; text-anchor: middle" x="530.712" y="109.408696" transform="rotate(-0 530.712 109.408696)">crash / time limit</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #212121; font: 8.2px 'DejaVu Sans'" transform="translate(377.181328 189.463291)">Saved and restored: flow state · mesh configuration</text>
+    <text style="fill: #212121; font: 8.2px 'DejaVu Sans'" transform="translate(414.978203 198.645497)">· rigid-body state · motion history</text>
+    <text style="fill: #212121; font: 8.2px 'DejaVu Sans'" transform="translate(411.113953 207.827704)">(user DOFs mapped to mesh DOFs)</text>
+    <text style="fill: #212121; font: 8.2px 'DejaVu Sans'" transform="translate(415.955797 217.00991)">· consistent, appendable log files</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0439bb4ccc">
+   <rect x="10.8" y="10.8" width="626.4" height="259.2"/>
+  </clipPath>
+ </defs>
+</svg>
