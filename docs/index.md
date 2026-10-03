@@ -34,7 +34,7 @@ software</strong>: GPU exascale weather codes at national labs, and AI shipped b
 <span class="em-title">BS + MS in Mathematics and Computing</span> (**IIT Kharagpur; minor in aerospace**). I write the
 numerics and understand the physics they model, which is the core of physics-informed ML,
 surrogate modeling and digital twins. About seven years of my career have been in industry,
-writing production C++ and Python for computer vision, ML and CFD, next to four years at
+writing production <span class="em-title">C++</span> and <span class="em-title">Python</span> for <span class="em-title">computer vision</span>, <span class="em-title">ML</span> and <span class="em-title">CFD</span>, next to four years at
 Lawrence Livermore.
 
 <div class="stats">
