@@ -42,7 +42,7 @@ Lawrence Livermore.
 <div class="stat"><span class="num">2</span><span class="lbl">US Govt (DOE) OSTI software records</span></div>
 <div class="stat"><span class="num">59</span><span class="lbl">merged PRs to ERF (DOE)</span></div>
 <div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter supercomputers</span></div>
-<div class="stat"><span class="num">551</span><span class="lbl">citations · h-index 11</span></div>
+<div class="stat"><span class="num">552</span><span class="lbl">citations · h-index 11</span></div>
 <div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
 </div>
 
@@ -57,7 +57,7 @@ Lawrence Livermore.
     - **MLAP** (LLNL): surrogate for wildfire fuel moisture, trained on 8 TB and 21 years of
       atmospheric data
     - **CFD surrogates** (Envision): wind-resource assessment 10× faster
-    - Physics AI toolkit: PINNs, DeepONet, FNO, NVIDIA PhysicsNeMo
+    - **Physics AI toolkit**: PINNs, DeepONet, FNO, NVIDIA PhysicsNeMo
 
     [:octicons-arrow-right-24: Surrogate modeling](ai-ml/surrogate-modeling.md)
 
@@ -91,7 +91,7 @@ Lawrence Livermore.
 
     ---
 
-    - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 551 citations
+    - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 552 citations
     - Models built on by **48 publications from 18 countries**, by industry, NAVAIR and NASA
     - Invited talks at Stanford and NREL; Energies topic editor; 50+ reviews
 
