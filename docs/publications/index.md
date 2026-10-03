@@ -3,7 +3,7 @@
 <div class="stats">
 <div class="stat"><span class="num">551</span><span class="lbl">citations (Google Scholar)</span></div>
 <div class="stat"><span class="num">11</span><span class="lbl">h-index</span></div>
-<div class="stat"><span class="num">32+</span><span class="lbl">countries citing the work</span></div>
+<div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
 <div class="stat"><span class="num">14</span><span class="lbl">peer-reviewed papers · 9 first-author</span></div>
 </div>
 
