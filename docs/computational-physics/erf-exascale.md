@@ -115,8 +115,12 @@ This is what lets ERF start from an actual forecast.
 - Case setups: Chisholm View (a real mesoscale case), Ekman spiral variants, Witch of Agnesi, uniform-advection tests. [#403](https://github.com/erf-model/ERF/pull/403) · [#570](https://github.com/erf-model/ERF/pull/570) · [#456](https://github.com/erf-model/ERF/pull/456) · [#208](https://github.com/erf-model/ERF/pull/208)
 
 <figure markdown>
-![Schematic: WRF preprocessing produces wrfinput and wrfbdy NetCDF files and input soundings, which ERF reads to build its initial and boundary state](../assets/figures/cp3/erf/real-weather-init.svg)
-<figcaption>Schematic drawn for this site, summarizing what the initialization PRs implemented.</figcaption>
+![ERF initial flow fields: an Ekman spiral column initialized from a custom profile and from ideal.exe output, and the Chisholm View wind-farm region initialized from real.exe output, showing x-velocity and density](../assets/figures/cp3/erf/real-weather-init.png)
+<figcaption>New initialization capabilities in ERF. Left: Ekman spiral column (150 × 125 × 5000 m,
+12 × 10 × 400 cells) initialized from a custom profile and from WRF's <code>ideal.exe</code>
+output. Right: the Chisholm View wind-farm region (3750 × 3750 × 5 km, 200 × 200 × 176 cells)
+initialized from WRF's <code>real.exe</code> output, showing x-velocity and density. From my
+FY22 mid-year review for DOE's Wind Energy Technologies Office (LLNL).</figcaption>
 </figure>
 
 ### Quality and documentation
