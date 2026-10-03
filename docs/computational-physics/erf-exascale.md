@@ -88,7 +88,7 @@ pull requests.
 
 <figure markdown>
 ![Arakawa C-grid staggering in the x–y plane and the stencil for x-momentum advection](../assets/figures/cp3/erf/cgrid-stencils.png)
-<figcaption>From my documentation of the discretization (<a href="https://github.com/erf-model/ERF/pull/6">#6</a>): variables staggered on the Arakawa C-grid, and the stencil for x-momentum advection. ERF, BSD-3.</figcaption>
+<figcaption>From my documentation of the discretization (<a href="https://github.com/erf-model/ERF/pull/6">#6</a>): variables staggered on the Arakawa C-grid, and the stencil for x-momentum advection. ERF, BSD-3. Current versions: <a href="https://erf.readthedocs.io/en/latest/Discretizations.html#staggered-grids">staggered grids</a> and <a href="https://erf.readthedocs.io/en/latest/Discretizations.html#u-momentum">momentum advection</a> in the ERF docs.</figcaption>
 </figure>
 
 ### Turbulence and boundary layers
@@ -100,7 +100,7 @@ pull requests.
 
 <figure markdown>
 ![Locations of strain-rate and eddy-viscosity components on the staggered grid](../assets/figures/cp3/erf/les-staggering.png)
-<figcaption>Where strain-rate and eddy-viscosity components live on the staggered grid, from my LES documentation (<a href="https://github.com/erf-model/ERF/pull/95">#95</a>). ERF, BSD-3.</figcaption>
+<figcaption>Where strain-rate and eddy-viscosity components live on the staggered grid, from my LES documentation (<a href="https://github.com/erf-model/ERF/pull/95">#95</a>). ERF, BSD-3. Current version: <a href="https://erf.readthedocs.io/en/latest/Discretizations.html#strain-rate-and-eddy-viscosity">strain rate and eddy viscosity</a> in the ERF docs.</figcaption>
 </figure>
 
 ### Real-weather initialization
@@ -120,7 +120,7 @@ This is what lets ERF start from an actual forecast.
 12 × 10 × 400 cells) initialized from a custom profile and from WRF's <code>ideal.exe</code>
 output. Right: the Chisholm View wind-farm region (3750 × 3750 × 5 km, 200 × 200 × 176 cells)
 initialized from WRF's <code>real.exe</code> output, showing x-velocity and density. From my
-FY22 mid-year review for DOE's Wind Energy Technologies Office (LLNL).</figcaption>
+FY22 mid-year review for DOE's Wind Energy Technologies Office (LLNL). Current documentation: <a href="https://erf.readthedocs.io/en/latest/Initialization.html#initialization-from-real-data">initialization from real data</a> in the ERF docs.</figcaption>
 </figure>
 
 ### Quality and documentation
@@ -132,7 +132,7 @@ FY22 mid-year review for DOE's Wind Energy Technologies Office (LLNL).</figcapti
 
 <figure markdown>
 ![Start and end states of three regression tests: Taylor–Green vortex, scalar advected in rigid rotation, and scalar diffusion](../assets/figures/cp3/erf/regression-tests.png)
-<figcaption>Three of the regression tests I documented (<a href="https://github.com/erf-model/ERF/pull/199">#199</a>): Taylor–Green vortex, a scalar blob in rigid rotation, and scalar diffusion, each from start to final time. ERF, BSD-3.</figcaption>
+<figcaption>Three of the regression tests I documented (<a href="https://github.com/erf-model/ERF/pull/199">#199</a>): Taylor–Green vortex, a scalar blob in rigid rotation, and scalar diffusion, each from start to final time. ERF, BSD-3. Current versions: <a href="https://erf.readthedocs.io/en/latest/RegressionTests.html#taylor-green-vortex-advection-and-diffusion">Taylor–Green vortex</a> and <a href="https://erf.readthedocs.io/en/latest/RegressionTests.html#scalar-diffusion-sphere-of-scalar">scalar diffusion</a> on the ERF regression-tests page.</figcaption>
 </figure>
 
 ## Coupling across scales
