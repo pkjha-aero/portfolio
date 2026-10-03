@@ -80,7 +80,7 @@ Lawrence Livermore.
     ---
 
     - **Core architect of ERF**, DOE's GPU exascale atmospheric code (C++/CUDA, AMReX); 59 merged
-      PRs; ~50k cores
+      PRs; ~50k cores; [~5× faster than WRF](computational-physics/erf-exascale.md#performance-relative-to-wrf)
     - Parallel C++/MPI **rotor** (OpenFOAM) and **submarine** (US Navy HYDRO) solvers
     - Regression-tested and reproducible; released on DOE OSTI
 
