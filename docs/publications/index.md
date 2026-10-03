@@ -1,14 +1,14 @@
 # Publications & Impact
 
 <div class="stats">
-<div class="stat"><span class="num">551</span><span class="lbl">citations (Google Scholar)</span></div>
+<div class="stat"><span class="num">552</span><span class="lbl">citations (Google Scholar)</span></div>
 <div class="stat"><span class="num">11</span><span class="lbl">h-index</span></div>
 <div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
 <div class="stat"><span class="num">14</span><span class="lbl">peer-reviewed papers · 9 first-author</span></div>
 </div>
 
 Live counts: [Google Scholar][scholar]. Citation figures on this site were last refreshed in
-September 2026.
+October 2026.
 
 ## Journal articles
 
@@ -21,7 +21,7 @@ September 2026.
   *86 citations*
 - **P. K. Jha**, E. P. N. Duque, J. L. Bashioum, S. Schmitz. *Unraveling the mysteries of
   turbulence transport in a wind farm.* **Energies** 8 (2015) 6468–6496.
-  [DOI][doi-energies-2015] · [PDF][pdf-energies-2015] · *27 citations*
+  [DOI][doi-energies-2015] · [PDF][pdf-energies-2015] · *28 citations*
 - **P. K. Jha**, S. Schmitz. *Blade load unsteadiness and turbulence statistics in an
   actuator-line computed turbine–turbine interaction problem.* **J. Solar Energy Engineering**
   138 (2016). [DOI][doi-jsee-2016] · [PDF][pdf-jsee-2016]
