@@ -7,9 +7,9 @@
     - **What I built.** I architected the core compressible Navier–Stokes solver of the
       **Energy Research and Forecasting (ERF)** model in C++/CUDA on AMReX, led LLNL's
       development team, and wrote the pipeline that starts ERF from real weather data (WRF/WPS).
-    - **Result.** Open-source code released through DOE OSTI and published in JOSS. About 10×
-      faster than traditional codes, run on ~50k cores of Summit, Frontier and Perlmutter. It
-      led to **$15M in follow-up NNSA projects**.
+    - **Result.** Open-source code released through DOE OSTI and published in JOSS, run on
+      ~50k cores of Summit, Frontier and Perlmutter. On GPUs it runs about **5× faster than WRF**
+      ([performance](#performance-relative-to-wrf)). It led to **$15M in follow-up NNSA projects**.
 
 <div class="badge-row">
 <a class="badge" href="https://www.osti.gov/biblio/code-109687">OSTI code-109687</a>
@@ -65,17 +65,19 @@ flowchart TB
 
 ## My contributions
 
-**59 merged pull requests** from January 2021 to July 2022 ([full list][erf-prs]): about
-**14,000 lines added** across **621 file changes**, in four groups. Each item below links to its
-pull requests.
+**59 merged pull requests** from January 2021 to July 2022 ([full list][erf-prs]), plus
+**4 direct commits** from November 2020 to January 2021, before the team moved to pull requests:
+a scalar-advection test problem, an AMReX update, build documentation and the Arakawa-grid
+schematic. Together they add about **14,500 lines**. The work falls into four groups below; each
+item links to its pull requests.
 
 <figure markdown>
 ![Stacked bar chart of merged ERF pull requests per month by theme, January 2021 to July 2022](../assets/figures/cp3/erf/erf-pr-activity.svg)
-<figcaption>Merged PRs per month. 2021 built the core solver, LES, boundary conditions and tests; 2022 built real-weather initialization from WRF.</figcaption>
+<figcaption>Merged PRs and direct commits per month. 2021 built the core solver, LES, boundary conditions and tests; 2022 built real-weather initialization from WRF.</figcaption>
 </figure>
 <figure markdown>
 ![Bar chart of lines added by area: solver 6,159, problem setups 4,153, regression tests 2,087, documentation 1,595](../assets/figures/cp3/erf/erf-lines-by-area.svg)
-<figcaption>Lines added by area of the repository, from the PR file lists on GitHub.</figcaption>
+<figcaption>Lines added by area of the repository, from the PR file lists on GitHub and the four direct commits.</figcaption>
 </figure>
 
 ### Core solver architecture
@@ -140,6 +142,36 @@ FY22 mid-year review for DOE's Wind Energy Technologies Office (LLNL). Current d
 <figcaption>Three of the regression tests I documented (<a href="https://github.com/erf-model/ERF/pull/199">#199</a>): Taylor–Green vortex, a scalar blob in rigid rotation, and scalar diffusion, each from start to final time. ERF, BSD-3. Current versions: <a href="https://erf.readthedocs.io/en/latest/RegressionTests.html#taylor-green-vortex-advection-and-diffusion">Taylor–Green vortex</a> and <a href="https://erf.readthedocs.io/en/latest/RegressionTests.html#scalar-diffusion-sphere-of-scalar">scalar diffusion</a> on the ERF regression-tests page.</figcaption>
 </figure>
 
+## Performance relative to WRF
+
+A follow-up paper by the ERF team ([Lattanzi et al., *JAMES* 2025](https://doi.org/10.1029/2024MS004884); open access, CC BY 4.0)
+measured the code built on this core against WRF, the community standard it is designed to
+replace. I am not an author of that paper; the results show how the architecture performs on
+today's machines.
+
+<div class="result" markdown>
+
+- **About 5× faster than WRF.** On a 3-D squall line with Kessler microphysics (12.9–51 million
+  cells, 2–8 Perlmutter nodes), ERF on GPUs ran each time step **4.5–5.5× faster** than WRF on
+  CPUs.
+- **5–15× per node, GPU over CPU.** Four NVIDIA A100 GPUs against a 128-core CPU node, up to 16
+  nodes.
+- **Scales to 2.1 billion cells.** Weak scaling on CPUs is nearly flat from 67 million cells
+  (1 node) to 2.1 billion cells (32 nodes, 4,096 ranks). Strong-scaling efficiency is 69% on
+  2,048 cores and 70% on 12 GPUs.
+- **Portable across GPU vendors.** Weak scaling holds on NVIDIA A100 (Perlmutter), AMD MI250X
+  (Frontier) and Intel Max (Aurora). GPU-aware MPI adds a further 25–35% speed-up.
+- **Faster output.** Writing a 12.9-million-cell plotfile takes about 0.6 s in ERF's native AMReX
+  format, against about 9 s for WRF's NetCDF output.
+
+</div>
+
+<figure markdown>
+![Wall time per step for WRF on CPUs and ERF on GPUs on 2, 4 and 8 Perlmutter nodes, with speed-ups of 5.47x, 4.64x and 4.54x](../assets/figures/cp3/erf/erf-vs-wrf.png){ width="560" }
+<figcaption>Wall time per time step, ERF on GPUs vs. WRF on CPUs, for a 3-D squall line on
+Perlmutter. Figure 20 from Lattanzi et al., <a href="https://doi.org/10.1029/2024MS004884"><i>JAMES</i> 2025</a>, CC BY 4.0.</figcaption>
+</figure>
+
 ## Coupling across scales
 
 Before ERF could couple mesoscale and microscale runs natively, I studied the problem with WRF-LES
@@ -172,6 +204,6 @@ components (radiation, land-surface models) in DOE programs.
 - Code: [github.com/erf-model/ERF][erf-repo] · [my merged PRs][erf-prs]
 - DOE OSTI: [software record code-109687][osti-erf-code] · [JOSS record 1998622][osti-erf-joss] ·
   [OSTI software record (PDF)][pdf-osti-erf]
-- Papers: [JOSS 2023][doi-joss-2023] ([PDF][pdf-joss-2023]) · [WES 2023][doi-wes-2023]
+- Papers: [JOSS 2023][doi-joss-2023] ([PDF][pdf-joss-2023]) · [JAMES 2025 (ERF team, performance)](https://doi.org/10.1029/2024MS004884) · [WES 2023][doi-wes-2023]
   ([PDF][pdf-wes-2023]) · [AMS 2023 slides][pdf-ams-2023]
 - All: [Atmosphere & mesoscale folder][drive-atmosphere]
