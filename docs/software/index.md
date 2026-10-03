@@ -31,7 +31,7 @@ code or records.
 
     <span class="pillar">C++</span><span class="pillar">OpenCV</span><span class="pillar">Python</span><span class="pillar">TensorFlow</span><span class="pillar">Docker</span>
 
-    [:octicons-arrow-right-24: Vision & ADAS](../ai-ml/vision-adas.md)
+    [:octicons-arrow-right-24: Computer Vision & ADAS](../ai-ml/vision-adas.md)
 
 -   :material-wind-turbine:{ .lg .middle } **Envision Digital** · 2017–2019
 
@@ -62,7 +62,7 @@ code or records.
 
     <span class="pillar">Python</span><span class="pillar">PyTorch</span><span class="pillar">YOLO</span><span class="pillar">LangChain</span><span class="pillar">AWS</span>
 
-    [:octicons-arrow-right-24: Vision & ADAS](../ai-ml/vision-adas.md) ·
+    [:octicons-arrow-right-24: Computer Vision & ADAS](../ai-ml/vision-adas.md) ·
     [LLMs & NLP](../ai-ml/llm-nlp.md)
 
 </div>

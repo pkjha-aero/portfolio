@@ -80,7 +80,7 @@ Computer vision for the electric grid:
 - **Behind-the-meter DER detection** using wavelet analysis and deep learning
 - Delivered for utilities including Puget Sound Energy, Con Edison and Trilliant
 
-## LLNL: vision for the lab
+## LLNL: computer vision for the lab
 
 An object detection and tracking tool for lab equipment, built with YOLO.
 
