@@ -15,7 +15,7 @@ My work has two sides
   implemented by [groups worldwide](publications/implementations.md#publications-building-on-my-models), the
   [core solver of ERF](computational-physics/erf-exascale.md#my-contributions) on DOE exascale
   machines, [verification and validation](computational-physics/submarine-maneuvering.md#verification-and-validation),
-  and the [shared mathematical toolkit](foundations.md#one-toolkit-two-tracks) behind both
+  and the [shared mathematical toolkit](foundations.md#mathematics) behind both
   physics and ML.
 - **Production code at a high pace**, from about seven years in industry writing production C++
   and Python: computer vision on 100,000+ devices at [NetraDyne](ai-ml/vision-adas.md#netradyne),
@@ -58,16 +58,16 @@ My work has two sides
     ---
 
     Architected the core GPU solver of [ERF](computational-physics/erf-exascale.md) and led
-    LLNL's development team in a collaboration of 6+ institutions (LBNL, NREL, ANL and others).
+    LLNL's development team in a collaboration of 6+ institutions (LBNL, NREL (now NLR), ANL and others).
     The work led to $15M in follow-up NNSA projects. Built
     [MLAP](ai-ml/surrogate-modeling.md), LLNL's machine learning automation pipeline for wildfire
     fuel moisture. Both are released on DOE's OSTI.
 
--   **National Renewable Energy Laboratory (NREL)**, *collaborator*
+-   **National Laboratory of the Rockies (NLR)**, formerly NREL, *collaborator*
 
     ---
 
-    During my PhD I co-authored the actuator-line modeling guidelines with NREL researchers
+    During my PhD I co-authored the actuator-line modeling guidelines with NREL (now NLR) researchers
     (JSEE 2014, now my most-cited paper), and gave an invited talk at the National Wind
     Technology Center. At LLNL I continued the collaboration through ERF and DOE's
     mesoscale–microscale coupling effort.

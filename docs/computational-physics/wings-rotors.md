@@ -12,7 +12,7 @@
 
 ## My role
 
-PhD research at Penn State (advisor Sven Schmitz), in collaboration with NREL's National Wind
+PhD research at Penn State (advisor Sven Schmitz), in collaboration with NREL's (now NLR's) National Wind
 Technology Center (Matthew Churchfield, Patrick Moriarty). I developed the models, implemented
 them in C++ inside OpenFOAM, ran the LES campaigns on Titan (~4k CPUs), and did the statistical
 analysis. Later at Envision Digital I applied the same models to production wind-resource

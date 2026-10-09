@@ -20,7 +20,7 @@
 ## My role
 
 Staff scientist at **Lawrence Livermore National Laboratory** (2020–2024), and one of the first
-developers of ERF. It is a DOE Wind Energy Technologies Office project across LBNL, NREL, LLNL
+developers of ERF. It is a DOE Wind Energy Technologies Office project across LBNL, NREL (now NLR), LLNL
 and ANL, with 6+ institutions involved. I led LLNL's part: strategy and development of the core
 GPU solver. I'm a named developer on the [OSTI software record][osti-erf-code] and a co-author of
 the [JOSS paper][doi-joss-2023].
@@ -176,7 +176,7 @@ Perlmutter. Figure 20 from Lattanzi et al., <a href="https://doi.org/10.1029/202
 
 Before ERF could couple mesoscale and microscale runs natively, I studied the problem with WRF-LES
 and generalized actuator disks. I presented this work as first author at the AMS Annual Meeting
-2023, with NREL, Virginia Tech and DTU co-authors. It also fed DOE's multi-lab lessons-learned
+2023, with NREL (now NLR), Virginia Tech and DTU co-authors. It also fed DOE's multi-lab lessons-learned
 paper ([Haupt et al., WES 2023][doi-wes-2023]).
 
 <figure markdown>

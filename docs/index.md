@@ -20,7 +20,7 @@ software</strong>: GPU exascale weather codes at national labs, and AI shipped b
 
 <div class="badge-row">
 <span class="badge">Lawrence Livermore National Lab</span>
-<span class="badge">NREL collaborator</span>
+<span class="badge">NLR (formerly NREL) collaborator</span>
 <span class="badge">US DOE · OSTI software</span>
 <span class="badge">US Navy</span>
 <span class="badge">Production AI: NetraDyne · Envision · AZX</span>
@@ -33,12 +33,17 @@ software</strong>: GPU exascale weather codes at national labs, and AI shipped b
 <span class="em-title">PhD in Aerospace Engineering</span> (**Penn State; minor in computational science**) and
 <span class="em-title">BS + MS in Mathematics and Computing</span> (**IIT Kharagpur; minor in aerospace**). I write the
 numerics and understand the physics they model, which is the core of physics-informed ML,
-surrogate modeling and digital twins. About seven years of my career have been in industry,
-writing production <span class="em-title">C++</span> and <span class="em-title">Python</span> for <span class="em-title">computer vision</span>, <span class="em-title">ML</span> and <span class="em-title">CFD</span>, next to four years at
-Lawrence Livermore.
+surrogate modeling and digital twins.
+
+I have more than seven years of industry experience, writing production <span class="em-title">C++</span> and
+<span class="em-title">Python</span>: <span class="em-title">computer vision</span> and <span class="em-title">ML</span> at startups (Envision Digital, NetraDyne, AZX),
+and <span class="em-title">CFD</span> for the US Navy at a DoD contractor (CMSoft). My national-lab experience includes
+PhD research in collaboration with NREL (now the National Laboratory of the Rockies, NLR),
+followed by four years of post-PhD work at Lawrence Livermore covering both computational
+physics and ML. Since my PhD days, I have always developed codes for distributed computing/training on large supercomputers.
 
 <div class="stats">
-<div class="stat"><span class="num">100k+</span><span class="lbl">devices running my computer vision code</span></div>
+<div class="stat"><span class="num">100k+</span><span class="lbl">edge devices running my computer vision code</span></div>
 <div class="stat"><span class="num">2</span><span class="lbl">US Govt (DOE) OSTI software records</span></div>
 <div class="stat"><span class="num">59</span><span class="lbl">merged PRs to ERF (DOE)</span></div>
 <div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter supercomputers</span></div>
@@ -75,16 +80,18 @@ Lawrence Livermore.
     [LLMs & NLP](ai-ml/llm-nlp.md) ·
     [Industry software](software/index.md#software-for-industry)
 
--   :material-server-network:{ .lg .middle } **Scientific software and HPC**
+-   :material-server-network:{ .lg .middle } **Scientific software and HPC/ Supercomputing**
 
     ---
 
     - **Core architect of ERF**, DOE's GPU exascale atmospheric code (C++/CUDA, AMReX); 59 merged
-      PRs; ~50k cores; [~5× faster than WRF](computational-physics/erf-exascale.md#performance-relative-to-wrf)
-    - Parallel C++/MPI **rotor** (OpenFOAM) and **submarine** (US Navy HYDRO) solvers
+      PRs; ~50k cores; [~5×- 15x faster than WRF depending on problems](computational-physics/erf-exascale.md#performance-relative-to-wrf)
+    - **Parallel C++/MPI** solvers for [**rotors**](computational-physics/wings-rotors.md) (OpenFOAM) and
+      [**submarine maneuvering**](computational-physics/submarine-maneuvering.md) (US Navy HYDRO)
     - Regression-tested and reproducible; released on DOE OSTI
 
     [:octicons-arrow-right-24: ERF](computational-physics/erf-exascale.md) ·
+    [Submarine maneuvering](computational-physics/submarine-maneuvering.md) ·
     [Software for US Govt](software/us-govt.md)
 
 -   :material-school-outline:{ .lg .middle } **Research credibility and community**
@@ -93,7 +100,7 @@ Lawrence Livermore.
 
     - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 552 citations
     - Models built on by **48 publications from 18 countries**, by industry, NAVAIR and NASA
-    - Invited talks at Stanford and NREL; Energies topic editor; 50+ reviews
+    - Invited talks at Stanford and NREL (now NLR); Energies topic editor; 50+ reviews
 
     [:octicons-arrow-right-24: Publications](publications/index.md) ·
     [Implementations](publications/implementations.md)
@@ -109,7 +116,7 @@ Lawrence Livermore.
     ---
 
     - [Wings and rotors](computational-physics/wings-rotors.md): loads, wakes and atmospheric
-      turbulence (Penn State, NREL)
+      turbulence (Penn State, NREL/NLR)
     - [Submarine maneuvering](computational-physics/submarine-maneuvering.md): fluid–6-DOF
       coupled solver (US Navy)
     - [ERF](computational-physics/erf-exascale.md): GPU exascale atmospheric code (LLNL, DOE)
@@ -126,8 +133,17 @@ Lawrence Livermore.
 
 </div>
 
-Both tracks rest on the same toolkit: C++ and Python, linear algebra, numerical analysis,
-statistics and HPC. [See how they connect →](foundations.md)
+Both tracks rest on the same skills and toolkit:
+
+- **Skills:** deriving the model from first principles, choosing and analyzing the numerics,
+  verifying and validating, making it fast at scale, making it reproducible, and shipping it.
+- **Mathematics:** linear algebra; calculus, vector and tensor analysis; ODEs and PDEs;
+  numerical analysis; probability, statistics and stochastic processes; optimization;
+  estimation and signal processing; geometry.
+- **Computing:** C++ and Python; algorithms and data structures; parallel and GPU programming;
+  HPC; data engineering; software engineering.
+
+[See how they connect →](foundations.md)
 
 ## Depth and speed
 
@@ -139,7 +155,7 @@ statistics and HPC. [See how they connect →](foundations.md)
 
     - First-principles models of wings and rotors, implemented by groups worldwide
     - Verification and validation against theory and experiment
-    - Open-source DOE codes on exascale machines (LLNL; NREL collaboration)
+    - Open-source DOE codes on exascale machines (LLNL; NREL/NLR collaboration)
     - Peer review, editorial work, and the AIAA Software Technical Committee
 
 -   :material-rocket-launch-outline:{ .lg .middle } **Speed: startups and industry**
