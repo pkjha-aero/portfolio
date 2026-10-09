@@ -65,9 +65,23 @@ These are what I bring regardless of the problem; the tables below show where ea
 
 ## Aerospace breadth
 
-Beyond CFD: flight mechanics, propulsion, structures, flight testing (climb rate, power
-required, stability response to disturbances), and wind-tunnel and icing-tunnel testing. I
-taught wind-tunnel testing and advanced computer programming at Penn State.
+Aerospace engineering beyond CFD, from my degrees (aerospace PhD at Penn State; aerospace minor
+at IIT Kharagpur) and my work:
+
+- **Aerodynamics:** subsonic, supersonic and rotary-wing aerodynamics; airfoil and blade
+  analysis (XFOIL, blade-element momentum theory); [wings, rotors and wakes](computational-physics/wings-rotors.md).
+- **Rotorcraft:** [helicopter rotor-hub wakes](computational-physics/wings-rotors.md#rotorcraft-the-wake-of-a-helicopter-rotor-hub)
+  and their effect on the tail, and rotor models used for helicopters in ship airwake.
+- **Flight mechanics and stability:** aircraft performance, stability and control, and
+  [6-DOF rigid-body dynamics](computational-physics/submarine-maneuvering.md).
+- **Propulsion:** propellers, rotors and jet engines.
+- **Structures and aeroelasticity:** aircraft structures and fluid–structure interaction,
+  including an actuator line coupled to a finite-element structural solver.
+- **Icing:** ice accretion and its aerodynamic penalty, with
+  [control strategies for turbines in icing conditions](computational-physics/wings-rotors.md#icing-turbines-in-cold-climates).
+- **Experiments:** wind-tunnel and icing-tunnel testing, and flight testing (climb rate, power
+  required, stability response to disturbances).
+- **Teaching:** wind-tunnel testing and advanced computer programming at Penn State.
 
 ## Keeping current
 

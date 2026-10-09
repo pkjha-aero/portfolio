@@ -40,7 +40,7 @@ I have more than seven years of industry experience, writing production <span cl
 and <span class="em-title">CFD</span> for the US Navy at a DoD contractor (CMSoft). My national-lab experience includes
 PhD research in collaboration with NREL (now the National Laboratory of the Rockies, NLR),
 followed by four years of post-PhD work at Lawrence Livermore covering both computational
-physics and ML. Since my PhD days, I have always developed codes for distributed computing/training on large supercomputers.
+physics and ML. Since my PhD, I have written and run parallel codes, for both simulation and ML training, on some of the [world's fastest supercomputers](computational-physics/index.md#computing-on-the-worlds-fastest-supercomputers): five have been #1 on the TOP500 list, including Frontier, the first exascale system.
 
 <div class="stats" markdown>
 <div class="stat" markdown>
@@ -57,7 +57,7 @@ physics and ML. Since my PhD days, I have always developed codes for distributed
 </div>
 <div class="stat" markdown>
 <span class="num">~50k</span>
-[cores on Summit / Frontier / Perlmutter supercomputers](computational-physics/index.md#scale-of-the-work){ .lbl }
+[cores on Summit / Frontier / Perlmutter supercomputers](computational-physics/index.md#computing-on-the-worlds-fastest-supercomputers){ .lbl }
 </div>
 <div class="stat" markdown>
 <span class="num">554</span>
