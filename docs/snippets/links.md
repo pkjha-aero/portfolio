@@ -60,3 +60,11 @@
 [pdf-osti-erf]: https://drive.google.com/file/d/1DTocV5Yu4x2D1v1DW23CqhocS4N3by95/view
 [pdf-forsythe]: https://drive.google.com/file/d/1atL1ZcnWxb-2C1oM3mQ5z1wPieL5ARut/view
 [pdf-aerospace-america]: https://drive.google.com/file/d/1aIxq1njxseOAJoyEFwiIlRnyrGQVjPgG/view
+
+[//]: # (Supercomputers: TOP500 system pages)
+[top500-titan]: https://www.top500.org/system/177975/
+[top500-summit]: https://www.top500.org/system/179397/
+[top500-frontier]: https://www.top500.org/system/180047/
+[top500-perlmutter]: https://www.top500.org/system/179972/
+[top500-taihulight]: https://www.top500.org/system/178764/
+[top500-tianhe2]: https://www.top500.org/system/177999/
