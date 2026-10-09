@@ -12,7 +12,7 @@ drives a wind farm.
     ---
 
     Geometry-based actuator line and actuator curve models for wind turbines and rotorcraft,
-    in OpenFOAM LES on Titan. Loads, unsteadiness, wakes. Built with NREL; now used by
+    in OpenFOAM LES on Titan. Loads, unsteadiness, wakes. Built with NREL (now NLR); now used by
     research groups worldwide.
 
     <span class="pillar">C++</span><span class="pillar">OpenFOAM</span><span class="pillar">LES</span><span class="pillar">MPI</span>

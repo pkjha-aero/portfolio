@@ -64,7 +64,7 @@ Other venues: APS DFD, ASME, AWEA, NAWEA WindTech, WindEurope. The full list is 
 
 ## Invited talks
 
-Stanford University (2018) · NREL National Wind Technology Center (2017) · University of
+Stanford University (2018) · NREL (now NLR) National Wind Technology Center (2017) · University of
 Colorado Boulder (2017) · University of New Mexico (2017) · UT Dallas (2017) · University of
 Houston (2017) · University of Wyoming (2017) · UT Arlington (2017)
 

@@ -32,7 +32,7 @@ shipping and dispersion studies.
 **Records.**
 
 - **OSTI code-109687**: *Energy Research and Forecasting (ERF) v1*, released 29 June 2022 by
-  LBNL, NREL, LLNL and ANL under a BSD-3 license. I am a named developer.
+  LBNL, NREL (now NLR), LLNL and ANL under a BSD-3 license. I am a named developer.
 - **OSTI 1998622**: the *Journal of Open Source Software* paper (2023,
   [doi:10.21105/joss.05202][doi-joss-2023]). I am a co-author.
 
