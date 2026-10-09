@@ -42,13 +42,32 @@ PhD research in collaboration with NREL (now the National Laboratory of the Rock
 followed by four years of post-PhD work at Lawrence Livermore covering both computational
 physics and ML. Since my PhD days, I have always developed codes for distributed computing/training on large supercomputers.
 
-<div class="stats">
-<div class="stat"><span class="num">100k+</span><span class="lbl">edge devices running my computer vision code</span></div>
-<div class="stat"><span class="num">2</span><span class="lbl">US Govt (DOE) OSTI software records</span></div>
-<div class="stat"><span class="num">59</span><span class="lbl">merged PRs to ERF (DOE)</span></div>
-<div class="stat"><span class="num">~50k</span><span class="lbl">cores on Summit / Frontier / Perlmutter supercomputers</span></div>
-<div class="stat"><span class="num">552</span><span class="lbl">citations · h-index 11</span></div>
-<div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
+<div class="stats" markdown>
+<div class="stat" markdown>
+<span class="num">100k+</span>
+[edge devices running my computer vision code](ai-ml/vision-adas.md#netradyne){ .lbl }
+</div>
+<div class="stat" markdown>
+<span class="num">2</span>
+[US Govt (DOE) OSTI software records](software/us-govt.md){ .lbl }
+</div>
+<div class="stat" markdown>
+<span class="num">59</span>
+[merged PRs to ERF (DOE)](computational-physics/erf-exascale.md#my-contributions){ .lbl }
+</div>
+<div class="stat" markdown>
+<span class="num">~50k</span>
+[cores on Summit / Frontier / Perlmutter supercomputers](computational-physics/index.md#scale-of-the-work){ .lbl }
+</div>
+<div class="stat" markdown>
+<span class="num">554</span>
+[citations · h-index 11](https://scholar.google.com/citations?user=VRaAAkgAAAAJ&hl=en){ .lbl }
+</div>
+<div class="stat" markdown>
+<span class="num">34</span>
+[countries &amp; regions citing the work](publications/index.md#where-the-citations-come-from){ .lbl }
+</div>
+</div>
 </div>
 
 ## What I bring
@@ -98,7 +117,7 @@ physics and ML. Since my PhD days, I have always developed codes for distributed
 
     ---
 
-    - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 552 citations
+    - **14 peer-reviewed papers** (JFM, JSEE, Energies, WES, JOSS); 554 citations
     - Models built on by **48 publications from 18 countries**, by industry, NAVAIR and NASA
     - Invited talks at Stanford and NREL (now NLR); Energies topic editor; 50+ reviews
 

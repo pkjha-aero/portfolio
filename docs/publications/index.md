@@ -1,7 +1,7 @@
 # Publications & Impact
 
 <div class="stats">
-<div class="stat"><span class="num">552</span><span class="lbl">citations (Google Scholar)</span></div>
+<div class="stat"><span class="num">554</span><span class="lbl">citations (Google Scholar)</span></div>
 <div class="stat"><span class="num">11</span><span class="lbl">h-index</span></div>
 <div class="stat"><span class="num">34</span><span class="lbl">countries &amp; regions citing the work</span></div>
 <div class="stat"><span class="num">14</span><span class="lbl">peer-reviewed papers · 9 first-author</span></div>
@@ -9,6 +9,13 @@
 
 Live counts: [Google Scholar][scholar]. Citation figures on this site were last refreshed in
 October 2026.
+
+### Where the citations come from
+
+The country count comes from [OpenAlex](https://openalex.org), which records the institutions of
+citing authors. Across about 300 papers citing my work (self-citations excluded), the authors are
+based in 34 countries and regions. The most frequent are the US, China, France, the UK,
+Germany, Italy, Belgium, the Netherlands, Sweden, Denmark and Canada.
 
 ## Journal articles
 
@@ -18,7 +25,7 @@ October 2026.
   [PDF][pdf-jsee-2014] · *199 citations*
 - **P. K. Jha**, S. Schmitz. *Actuator curve embedding – an advanced actuator line model.*
   **J. Fluid Mechanics** 834, R2 (2018). [DOI][doi-jfm-2018] · [PDF][pdf-jfm-2018] ·
-  *86 citations*
+  *87 citations*
 - **P. K. Jha**, E. P. N. Duque, J. L. Bashioum, S. Schmitz. *Unraveling the mysteries of
   turbulence transport in a wind farm.* **Energies** 8 (2015) 6468–6496.
   [DOI][doi-energies-2015] · [PDF][pdf-energies-2015] · *28 citations*
@@ -27,7 +34,7 @@ October 2026.
   138 (2016). [DOI][doi-jsee-2016] · [PDF][pdf-jsee-2016]
 - S. E. Haupt, B. Kosović, …, **P. Jha**, et al. *Lessons learned in coupling atmospheric
   models across scales for onshore and offshore wind energy.* **Wind Energy Science** 8 (2023)
-  1251–1275. [DOI][doi-wes-2023] · [PDF][pdf-wes-2023] · *46 citations*
+  1251–1275. [DOI][doi-wes-2023] · [PDF][pdf-wes-2023] · *47 citations*
 - A. Almgren, A. Lattanzi, R. Haque, **P. Jha**, et al. *ERF: Energy Research and
   Forecasting.* **J. Open Source Software** 8 (2023) 5202. [DOI][doi-joss-2023] ·
   [PDF][pdf-joss-2023] · [OSTI][osti-erf-joss]

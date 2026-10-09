@@ -30,13 +30,13 @@ My work has two sides
 - **Aerospace**: aircraft wings, [helicopters and rotor hubs](computational-physics/wings-rotors.md#rotorcraft-the-wake-of-a-helicopter-rotor-hub),
   drones and UAVs, jet engines, and [ship airwakes](publications/implementations.md#us-government)
   for Navy pilot training
-- **Naval**: [submarine maneuvering](computational-physics/submarine-maneuvering.md)
+- **Meteorology (weather and climate)**: [mesoscale-to-microscale atmosphere](computational-physics/erf-exascale.md),
+  weather intelligence for aviation and shipping, [wildfire risk](ai-ml/surrogate-modeling.md),
+  climate change, earth-system modeling, and geospatial intelligence
+- **Naval and maritime**: [submarine maneuvering](computational-physics/submarine-maneuvering.md)
 - **Energy**: [wind turbines and wind farms](computational-physics/wings-rotors.md),
   [turbine icing](computational-physics/wings-rotors.md#icing-turbines-in-cold-climates), and
   [electric grids and distributed energy](ai-ml/vision-adas.md#azx)
-- **Weather and climate**: [mesoscale-to-microscale atmosphere](computational-physics/erf-exascale.md),
-  weather intelligence for aviation and shipping, [wildfire risk](ai-ml/surrogate-modeling.md),
-  climate change, earth-system modeling, and geospatial intelligence
 - **Autonomous driving and robotics**: [ADAS, HD maps and collision prediction](ai-ml/vision-adas.md#netradyne)
 - **Scientific workflows**: [LLMs for simulation logs and inputs](ai-ml/llm-nlp.md#llms-for-simulation-workflows-llnl)
 
@@ -44,7 +44,7 @@ My work has two sides
 
 - **US Government**: Department of Energy (DOE), National Nuclear Security Administration
   (NNSA), Department of Defense (DoD), US Navy and US Army
-- **Industry**: GE Aerospace, Envision, Hyundai (Motional), Amazon, Puget Sound Energy, Con
+- **Industry**: GE Aerospace, Envision Digital, Hyundai (Motional), Amazon, Puget Sound Energy, Con
   Edison and Trilliant
 - **Research community**: national laboratories and universities, AIAA and the Vertical Flight
   Society (VFS), and the aerospace, rotorcraft, wind-energy and meteorology communities

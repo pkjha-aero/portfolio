@@ -340,3 +340,17 @@ a.pillar:hover { color: var(--md-accent-fg-color); }
 .md-typeset .impl-table table:not([class]) td:nth-child(3) { min-width: 11rem; }
 .md-typeset .impl-table table:not([class]) td:nth-child(4) { min-width: 8rem; }
 .md-typeset .impl-table table:not([class]) td:last-child { white-space: nowrap; }
+
+/* Home stat tiles: the label text links to the evidence. */
+.md-typeset .stat > p { margin: 0; }
+.md-typeset .stat a.lbl {
+  color: var(--md-typeset-a-color);
+  text-decoration: underline;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-underline-offset: 2px;
+}
+.md-typeset .stat a.lbl:hover,
+.md-typeset .stat a.lbl:focus {
+  color: var(--md-accent-fg-color);
+  text-decoration-color: currentColor;
+}

@@ -7,7 +7,7 @@
       projection, then the **actuator curve embedding**, ACE) in an OpenFOAM LES solver, plus
       statistical tools to study how blades respond to atmospheric turbulence.
     - **Result.** Modeling guidelines that became a reference for the field: 199 citations for
-      the 2014 guidelines paper, 86 for the JFM ACE paper, used by groups in Belgium, Israel,
+      the 2014 guidelines paper, 87 for the JFM ACE paper, used by groups in Belgium, Israel,
       Denmark and the US, and by the US Navy for ship-airwake pilot training.
 
 ## My role
